@@ -18,3 +18,27 @@ function scrollNav() {
     $('.scrollTop a').scrollTop();
   }
   scrollNav();
+
+
+
+
+  $(document).ready(function(){
+
+    var em = $('#mauticform_input_dailyprompts_email');
+
+    function validateEmail(em) {
+        var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+        return emailReg.test( em );
+      }
+      
+    $("input").keyup(function(e){
+       var a=$('#mauticform_input_dailyprompts_email').val().trim();
+       if(!validateEmail(a)){
+       $('#mauticform_input_dailyprompts_submit').attr("disabled","true");
+       }
+       else{
+       $('#mauticform_input_dailyprompts_submit').removeAttr('disabled');
+       }
+    });
+
+});

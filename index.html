@@ -133,7 +133,7 @@
             <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#learn">Improve</a>
+            <a class="nav-link" href="#goal">Our Goal</a>
           </li>
 
         </ul>
@@ -182,14 +182,10 @@
         <!--Grid row-->
         <div class="row wow fadeIn">
 
-          <div class="col-md-12 col-sm-8 col-8 mb-4 mx-auto">
 
-
-
-          </div>
 
           <!--Grid column-->
-          <div class="col-md-6 mt-5 text-body text-center text-md-left">
+          <div class="col-md-8 col-sm-12 col-12 col-xl-6 mx-auto text-body text-center text-md-left">
 
             <h1 class="display-6 font-weight-bold purple-text">Learn,Create and Inspire</h3>
 
@@ -200,11 +196,14 @@
 
               </p>
 
-              <p class="mb-4 d-md-block">
-                <strong>Be Challenged will give you prompts every other day to nudge you to be creative atleast half of
+              <p class=" d-md-block">
+                Be Challenged will give you prompts every other day to nudge you to be creative atleast half of
                   the Week.
-                  There is no catch to this. It is as clean cut as that!</strong>
+                  There is no catch to this. It is as clean cut as that!
               </p>
+              <p class="mb-4 d-md-block">
+                  You can tag and find tagged work on Dribbble,Behance and Codepen with the <strong class="purple-text">tag #bechallenged</strong>
+                </p>
 
               <div class="flex-column">
                 <img src="img\ex.png" height="300" alt="example" class="rounded mx-auto d-block z-depth-1-half" />
@@ -216,7 +215,7 @@
           <!--Grid column-->
 
           <!--Grid column-->
-          <div class="col-md-6 col-xl-5 ml-5 d-flex align-items-center">
+          <div class="col-md-6 col-xl-5 col-sm-8 col-8 mx-auto d-flex align-items-center">
 
             <!--Card-->
             <div class="">
@@ -237,15 +236,15 @@
                     <div id="mauticform_dailyprompts_email" data-validate="email" data-validation-type="email" class="mauticform-row mauticform-email mauticform-field-1 mauticform-required">
                       <i class="fa fa-envelope prefix purple-text"></i>
                       <input id="mauticform_input_dailyprompts_email" name="mauticform[email]" value="" class=" form-control"
-                        type="email">
+                        type="email" required>
                       <label for="form2">Your email</label>
 
-                      <span class="mauticform-errormsg text-danger " style="display: none;"><strong>This is required.</strong></span>
+                      
                     </div>
 
                     <div id="mauticform_dailyprompts_submit" class="mauticform-row mauticform-button-wrapper mauticform-field-2 text-center">
                       <button type="submit" name="mauticform[submit]" id="mauticform_input_dailyprompts_submit" value=""
-                        class="btn secondary-color mauticform-button">Get Started</button>
+                        class="btn secondary-color mauticform-button" data-toggle="modal" data-target="#thanks" disabled="true" >Get Started</button>
 
                     </div>
 
@@ -289,7 +288,7 @@
       <!--Section: Main features & Quick Start-->
       <section>
 
-        <h3 class="h3 text-center mb-5">About Be Challenged</h3>
+        <h3 class="h3 text-center mb-5">Be Challenged</h3>
 
         <!--Grid row-->
         <div id="about" class="row wow fadeIn">
@@ -315,12 +314,12 @@
             <!--Second row-->
             <div class="row">
               <div class="col-1 mr-3">
-                <i class="fa fa-graduation-cap fa-2x purple-text"></i>
+                <i class="fa fa-hourglass-start fa-2x purple-text"></i>
               </div>
               <div class="col-10">
-                <h5 class="feature-title">Improve and Learn <span class="badge badge-secondary">For Students</span></h5>
-                <p class="grey-text">Our goal is to help you learn new things and improve your own skills in the about
-                  100 day period.
+                <h5 class="feature-title">Prompts</h5>
+                <p class="grey-text">You are free to interpet the prompts as how ever you feel like it is correct. 
+                  There is not inherit guide to how it should be completed. It is entirely up to you. 
 
                 </p>
               </div>
@@ -332,12 +331,12 @@
             <!--Third row-->
             <div class="row">
               <div class="col-1 mr-3">
-                <i class="fa fa-image fa-2x deep-purple-text"></i>
+                <i class="fa fa-envelope fa-2x deep-purple-text"></i>
               </div>
               <div class="col-10">
-                <h5 class="feature-title">Bolster your portfolio</h5>
-                <p class="grey-text"> Those who are just getting into web design or are student of it,
-                  these prompts will be perfect for your early portfolio work!
+                <h5 class="feature-title">"Daily"</h5>
+                <p class="grey-text"> After signing up you will start recieving a prompt every other day. 
+                  Emails will only be prompts, there will be no spam.
 
 
                 </p>
@@ -352,7 +351,7 @@
           <div class="col-lg-6 col-md-12 d-flex align-items-center">
 
 
-            <p class="h3 text-center mb-4 ">You'll be amazed by what <strong class="purple-text">you</strong> can
+            <p class="h3 text-center mx-auto ">You'll be amazed by what <strong class="purple-text">you</strong> can
               <strong class="purple-text">create.</strong></p>
 
           </div>
@@ -367,14 +366,196 @@
       <hr class="my-5">
 
 
+      <!--Section: -->
+      <section id="goal">
+
+          <h2 class="my-5 h3 text-center">Our Goal</h2>
+  
+          <!--First row-->
+          <div class="row features-small mt-5 wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+  
+            <!--Grid column-->
+            <div class="col-xl-4 col-lg-6">
+              <!--Grid row-->
+              <div class="row">
+                <div class="col-2">
+                  <i class="fa fa-graduation-cap fa-2x purple-text" aria-hidden="true"></i>
+                </div>
+                <div class="col-10 mb-2 pl-3">
+                  <h5 class="feature-title font-bold mb-1">To teach</h5>
+                  <p class="grey-text mt-2">We want students and enthusiasts alike to explore new ways to be creative in their own way
+                  </p>
+                </div>
+              </div>
+              <!--/Grid row-->
+            </div>
+            <!--/Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-xl-4 col-lg-6">
+              <!--Grid row-->
+              <div class="row">
+                <div class="col-2">
+                  <i class="fa fa-level-up fa-2x mb-1 deep-purple-text" aria-hidden="true"></i>
+                </div>
+                <div class="col-10 mb-2">
+                  <h5 class="feature-title font-bold mb-1">Help improve</h5>
+                  <p class="grey-text mt-2"> Being creative daily will keep you sharp and when sharing your success you will get valuable feedback from others in the same shoes! 
+                  </p>
+                </div>
+              </div>
+              <!--/Grid row-->
+            </div>
+            <!--/Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-xl-4 col-lg-6">
+              <!--Grid row-->
+              <div class="row">
+                <div class="col-2">
+                  <i class="fa fa-comments-o fa-2x mb-1 purple-text" aria-hidden="true"></i>
+                </div>
+                <div class="col-10 mb-2">
+                  <h5 class="feature-title font-bold mb-1">For you to share</h5>
+                  <p class="grey-text mt-2">We encourage you to share your success on <strong class="purple-text">Dribbble,Codepen and Behance </strong>under the <strong>tag</strong> <strong class="purple-text">#Bechallenged</strong>
+                  </p>
+                </div>
+              </div>
+              <!--/Grid row-->
+            </div>
+            <!--/Grid column-->
+  
+
+  
+          </div>
+          <!--/First row-->
+  
+          <!--Second row-->
+          <div class="row features-small mt-4 wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+  
+            <!--Grid column-->
+            <div class="col-xl-4 col-lg-6">
+              <!--Grid row-->
+              <div class="row">
+                <div class="col-2">
+                  <i class="fa fa-cubes fa-2x mb-1 purple-text" aria-hidden="true"></i>
+                </div>
+                <div class="col-10 mb-2">
+                  <h5 class="feature-title font-bold mb-1">To create a community</h5>
+                  <p class="grey-text mt-2">In hopes this will create a mentor-student type community where newcommers can look at others work and get feedback from those who have improved</p>
+                </div>
+              </div>
+              <!--/Grid row-->
+            </div>
+            <!--/Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-xl-4 col-lg-6">
+              <!--Grid row-->
+              <div class="row">
+                <div class="col-2">
+                  <i class="fa fa-image fa-2x deep-purple-text" aria-hidden="true"></i>
+                </div>
+                <div class="col-10 mb-2">
+                  <h5 class="feature-title font-bold mb-1">Get you to iscover</h5>
+                  <p class="grey-text mt-2">Do not be afraid to look at others work for inspiration. Check out places like Dribbble, Behance and Pinterest! On dribbble under tag Dailyui you will find alot of creative inspiration
+                  </p>
+                </div>
+              </div>
+              <!--/Grid row-->
+            </div>
+            <!--/Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-xl-4 col-lg-6">
+              <!--Grid row-->
+              <div class="row">
+                <div class="col-2">
+                  <i class="fa fa-th fa-2x mb-1 purple-text " aria-hidden="true"></i>
+                </div>
+                <div class="col-10 mb-2">
+                  <h5 class="feature-title font-bold mb-1">Bolster your portfolio</h5>
+                  <p class="grey-text mt-2">This is a great challenge to help you create a portfolio for you that is just your own pure creativity</p>
+                </div>
+              </div>
+              <!--/Grid row-->
+            </div>
+            <!--/Grid column-->
+  
+
+  
+          </div>
+          <!--/Second row-->
+  
+        </section>
 
       <hr class="mb-5">
 
 
 
     </div>
+
+
+
+<!--Modal: modalSocial-->
+<div class="modal fade" id="thanks" tabindex="-1" role="dialog" aria-labelledby="thanks" aria-hidden="true">
+  <div class="modal-dialog cascading-modal" role="document">
+
+    <!--Content-->
+    <div class="modal-content">
+
+      <!--Header-->
+      <div class="modal-header light-blue darken-3 white-text">
+        <h4 class="title"><i class="fa fa-users"></i> Spreed the word!</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+
+      <!--Body-->
+      <div class="modal-body mb-0 text-center">
+
+
+        <!--Facebook-->
+        <a type="button" class="btn-floating btn-fb"><i class="fa fa-facebook"></i></a>
+        <!--Twitter-->
+        <a type="button" class="btn-floating btn-tw"><i class="fa fa-twitter"></i></a>
+        <!--Google +-->
+        <a type="button" class="btn-floating btn-gplus"><i class="fa fa-google-plus"></i></a>
+        <!--Linkedin-->
+        <a type="button" class="btn-floating btn-li"><i class="fa fa-linkedin"></i></a>
+        <!--Instagram-->
+        <a type="button" class="btn-floating btn-ins"><i class="fa fa-instagram"></i></a>
+        <!--Pinterest-->
+        <a type="button" class="btn-floating btn-pin"><i class="fa fa-pinterest"></i></a>
+        <!--Youtube-->
+        <a type="button" class="btn-floating btn-yt"><i class="fa fa-youtube"></i></a>
+        <!--Dribbble-->
+        <a type="button" class="btn-floating btn-dribbble"><i class="fa fa-dribbble"></i></a>
+        <!--Vkontakte-->
+        <a type="button" class="btn-floating btn-vk"><i class="fa fa-vk"></i></a>
+        <!--Stack Overflow-->
+        <a type="button" class="btn-floating btn-so"><i class="fa fa-stack-overflow"></i></a>
+        <!--Slack-->
+        <a type="button" class="btn-floating btn-slack"><i class="fa fa-slack"></i></a>
+        <!--Github-->
+        <a type="button" class="btn-floating btn-git"><i class="fa fa-github"></i></a>
+        <!--Comments-->
+        <a type="button" class="btn-floating btn-comm"><i class="fa fa-comments"></i></a>
+        <!--Email-->
+        <a type="button" class="btn-floating btn-email"><i class="fa fa-envelope"></i></a>
+
+      </div>
+
+    </div>
+    <!--/.Content-->
+
+  </div>
+</div>
+<!--Modal: modalSocial-->
+
   </main>
   <!--Main layout-->
+
+  
 
   <!--Footer-->
   <footer class="page-footer secondary-color text-center font-small mt-4 wow fadeIn">
