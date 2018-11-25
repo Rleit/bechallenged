@@ -37,11 +37,11 @@ $("input").keyup(function (e) {
         esubmit.attr("disabled", "true");
     } else {
         esubmit.removeAttr('disabled');
-        esubmit.one('click', function () {
+        esubmit.click( function () {
             $("#thanks").modal();
             esubmit.attr("disabled", "true");
             $( "#emailabl" ).removeClass( "active" )
-            
+            $( "#mauticform_dailyprompts" ).submit();
         });
     }
 
