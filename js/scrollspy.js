@@ -32,12 +32,17 @@ function validateEmail(em) {
 }
 
 $("input").keyup(function (e) {
-    var a = em
+    var a = $('#mauticform_input_dailyprompts_email').val().trim();
     if (!validateEmail(a)) {
         esubmit.attr("disabled", "true");
     } else {
         esubmit.removeAttr('disabled');
-
+        esubmit.one('click', function () {
+            $("#thanks").modal();
+            esubmit.attr("disabled", "true");
+            $( "#emailabl" ).removeClass( "active" )
+            
+        });
     }
 
 });
