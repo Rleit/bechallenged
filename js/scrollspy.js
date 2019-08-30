@@ -1,5 +1,5 @@
 // ------------------------------
-// https://twitter.com/mattsince87
+// Navigation Scroll By https://twitter.com/mattsince87
 // ------------------------------
 
 function scrollNav() {
@@ -21,7 +21,9 @@ scrollNav();
 
 
 
-
+// ------------------------------
+// Form Validation - Rainer
+// ------------------------------
 
 var em = $('#mauticform_input_dailyprompts_email').val().trim();
 var esubmit = $('#mauticform_input_dailyprompts_submit');
